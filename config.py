@@ -1,8 +1,17 @@
-# Configurations for the bot
+# Bot Configuration File
 
-FB_COOKIES_FILE = "cookies.json"  # Facebook login cookies
-FLIRTY_MESSAGES_FILE = "replies.py"  # Flirty message storage
-MEME_FOLDER = "memes/"  # Folder for meme images
-VOICE_REPLY_FOLDER = "voice_responses/"  # Folder for voice replies
+# Facebook Login Method (Cookies se login hoga)
+USE_COOKIES = True
 
-BOT_RUNNING_HOURS = 5  # Bot will run for 5 hours once started
+# Cookies file ka path
+COOKIES_FILE = "cookies.json"
+
+# Delay between replies (seconds me)
+REPLY_DELAY = 2
+
+# Meme Folder Path
+MEME_FOLDER = "memes/"
+
+# Voice Reply Settings
+VOICE_REPLY_LANGUAGE = "hi"  # Hindi
+VOICE_REPLY_SPEED = 1.2  # Speed Adjust
